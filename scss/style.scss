@@ -1,4 +1,8 @@
-@import "header";
+@use "header";
+@use "nav";
+@use "variables";
+@use "mixins";
+@use "mobile";
 
 * {
   margin: 0;
