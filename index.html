@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>PhysioBrake</title>
   </head>
@@ -11,15 +12,30 @@
   <body>
     <header>
       <div class="header-wrapper">
-        <!-- Logo -->
-        <a href="#" class="logo">LR</a>
+        <nav class="navigation">
+          <!-- Logo -->
 
-        <nav class="topnav">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Specialties</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="#" class="logo">LR</a>
+              <li><a href="#">Specialties</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="wide-menu">
+            <a href="#" class="logo">LR</a>
+            <ul>
+              <li><a href="#">Specialties</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
