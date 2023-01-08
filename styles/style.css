@@ -19,14 +19,15 @@
   color: #ffd038;
 }
 
-body {
-  background-color: #292929;
+.wide-menu {
+  padding: 1rem;
+}
+.wide-menu img {
+  width: 100px;
 }
 
 body {
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
+  background-color: #292929;
 }
 
 a {
@@ -61,7 +62,6 @@ ul {
 
 nav {
   width: 100vw;
-  background-color: #1e1e23;
   height: 65px;
 }
 
@@ -154,6 +154,7 @@ nav {
     display: none;
   }
   .wide-menu {
+    background-color: #292929;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -166,6 +167,10 @@ nav {
     padding: 0 1rem;
   }
 }
+main {
+  background-color: #292929;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,10 +1,5 @@
 @use "variables" as *;
 
-body {
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
-}
 a {
   text-decoration: none;
   color: $primary-color-light;
@@ -35,7 +30,7 @@ ul {
 
 nav {
   width: 100vw;
-  background-color: #1e1e23;
+  // background-color: #1e1e23;
   height: 65px;
 }
 
@@ -130,6 +125,7 @@ nav {
   }
 
   .wide-menu {
+    background-color: $primary-color-dark;
     width: 100vw;
     display: flex;
     justify-content: space-between;
